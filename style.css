@@ -4,18 +4,35 @@
     padding: 0;
 }
 
+header {
+    padding: 20px 35px;
+    background-color:dodgerblue;
+    display: flex;
+}
+
 h1 {
     text-align: center;
     margin: 30px;
     padding: 30px;
 }
 
-nav ul {
+header nav {
     display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: flex-end;
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     list-style-type: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
 }
 
 header a {
