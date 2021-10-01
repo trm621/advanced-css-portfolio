@@ -27,7 +27,7 @@ header nav {
 
 header nav ul {
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -52,24 +52,23 @@ header a:visited {
     text-decoration: none;
 }
 
-body {
-    height:100%;
+.hero {
     background-image: url('./images/hero-image.jpg');
     background-size: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-section {
-    padding: 60px;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
 }
 
 .projects-section {
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: space-evenly;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 
 .project-info {
@@ -97,11 +96,11 @@ section {
     color:floralwhite;
 }
 
-h2 {
+.hero, h2 {
     font-size: 50px;
     color: white;
     text-align: center;
     padding: 50px 30px 0 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: lighter;
+    font-weight:lighter;
 }
