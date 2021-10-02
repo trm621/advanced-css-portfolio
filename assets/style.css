@@ -133,8 +133,10 @@ h3 {
 }
 
 .skill-section {
+    font-size: 35px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
-    flex-flow: column;
     padding: 20px;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
