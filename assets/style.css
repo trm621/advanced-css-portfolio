@@ -12,6 +12,10 @@ header {
     justify-content:space-around;
 }
 
+body {
+    background-color: forestgreen;
+}
+
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
@@ -109,22 +113,28 @@ header a:visited {
 h3 {
     text-align: center;
     font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:gold;
+    margin-top: 25px;
 }
 
 .about-me-section {
-    background-color:forestgreen;
     color: white;
-    text-align: center;
     padding: 20px;
     display: flex;
+    font-size: 25px;
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .about-me-section p {
-    font-size: 25px;
-    margin: 20px;
-    text-align: right;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+    text-align: left;
 }
 
-
-
+.skill-section {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    justify-content: flex-end;
+}
