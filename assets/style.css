@@ -13,7 +13,7 @@ header {
 }
 
 body {
-    background-color: forestgreen;
+    background-color:midnightblue;
 }
 
 h1 {
@@ -64,16 +64,21 @@ header a:visited {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-attachment: absolute;
 }
 
 .hero, h2 {
     font-size: 50px;
     color: white;
     text-align: center;
-    padding: 16px 30px 0 20px;
+    padding: 40px 190px 20px 75px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:lighter;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+    position: relative;
 }
 
 .projects-section {
@@ -114,7 +119,7 @@ h3 {
     text-align: center;
     font-size: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:gold;
+    color:whitesmoke;
     margin-top: 25px;
 }
 
@@ -127,8 +132,9 @@ h3 {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.about-me-section p {
-    margin: 15px;
+p {
+    display: block;
+    margin: 50px;
     text-align: left;
 }
 
@@ -139,4 +145,32 @@ h3 {
     display: flex;
     padding: 20px;
     justify-content: space-evenly;
+}
+
+.skill-section ul {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 980px) {
+
+    header {
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        margin: auto;
+    }
+
+    header nav ul li {
+        display: flex;
+        font-size: 25px;
+        width: 100%;
+        justify-content: center;
+        margin-right: 30px;
+        margin-bottom: 5px;
+    }
 }
