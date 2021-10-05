@@ -81,6 +81,29 @@ img {
     position: relative;
 }
 
+h3 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;
+    margin-top: 25px;
+}
+
+.about-me-section {
+    color: white;
+    padding: 20px;
+    display: flex;
+    font-size: 25px;
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    display: block;
+    margin: 50px;
+    text-align: left;
+}
+
 .projects-section {
     display: flex;
     flex-wrap: wrap;
@@ -115,29 +138,6 @@ img {
 }
 
 
-h3 {
-    text-align: center;
-    font-size: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:whitesmoke;
-    margin-top: 25px;
-}
-
-.about-me-section {
-    color: white;
-    padding: 20px;
-    display: flex;
-    font-size: 25px;
-    margin: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-p {
-    display: block;
-    margin: 50px;
-    text-align: left;
-}
-
 .skill-section {
     font-size: 35px;
     color: white;
@@ -149,6 +149,21 @@ p {
 
 .skill-section ul {
     list-style-type: none;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contact-section ul {
+    font-size: 30px;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    padding: 20px;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 980px) {
@@ -167,6 +182,7 @@ p {
 
     header nav ul li {
         display: flex;
+        flex-direction: column;
         font-size: 25px;
         width: 100%;
         justify-content: center;
