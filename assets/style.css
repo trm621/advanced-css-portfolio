@@ -104,6 +104,24 @@ p {
     text-align: left;
 }
 
+.main-project {
+    color: white;
+    display: flex;
+    background-image: url('./images/main-project-image.jpg');
+    background-position: 80%;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 380px;
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 50px auto;
+    border: 2px floralwhite solid;
+    border-width: 7px;
+    text-decoration: none;
+}
+
 .projects-section {
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +142,20 @@ p {
 }
 
 .project-info:hover {
-    background-color: rgb(255, 250, 240, 0.6);
+    color:rgb(255, 255, 255, 0.5);
+    background-color:slategrey;
+}
+
+.main-project:hover {
+    background-image: url('./images/main-project-image.jpg');
+    background-position: 80%;
+    background-size: 100%;
+    opacity: 0.5;
+}
+
+.main-project, a {
+    color: white;
+    z-index: 9999;
 }
 
 .project-info, a:link {
