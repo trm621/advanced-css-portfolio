@@ -12,10 +12,6 @@ header {
     justify-content:space-around;
 }
 
-body {
-    background-color:midnightblue;
-}
-
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
@@ -56,29 +52,23 @@ header a:visited {
     text-decoration: none;
 }
 
+/* body section */
+
+body {
+    background-color:midnightblue;
+}
+
+/* hero section */
+
 .hero {
     background-image: url('./images/hero-image.jpg');
     background-size: cover;
     background-position: 80%;
+    padding: 450px 0 20px 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-}
-
-.hero, h2 {
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    padding: 40px 190px 20px 75px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:lighter;
-}
-
-img {
-    height: 30%;
-    width: 30%;
-    position: relative;
 }
 
 h3 {
@@ -147,27 +137,18 @@ p {
 }
 
 .main-project:hover {
-    background-image: url('./images/main-project-image.jpg');
-    background-position: 80%;
-    background-size: 100%;
-    opacity: 0.5;
-}
-
-.main-project, a {
-    color: white;
-    z-index: 9999;
+    opacity: 0.8;
 }
 
 .project-info, a:link {
-    color: floralwhite;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .project-info, a:visited {
     text-decoration: none;
     color:floralwhite;
 }
-
 
 .skill-section {
     font-size: 35px;
@@ -185,10 +166,11 @@ p {
 .contact-section {
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 135px;
+    margin-bottom: 0;
 }
 
-.contact-section h3{
+.contact-section h3 {
     margin-top: 15px;
 }
 
@@ -199,6 +181,16 @@ p {
     list-style-type: none;
     padding: 20px;
     justify-content: space-evenly;
+}
+
+.contact-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-section a:hover {
+    color: red;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 980px) {
