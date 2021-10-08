@@ -79,6 +79,8 @@ h2 {
     margin-top: 60px;
 }
 
+/* about me section */
+
 .about-me-section {
     color: white;
     padding: 20px;
@@ -93,6 +95,8 @@ p {
     margin: 50px;
     text-align: left;
 }
+
+/* project section */
 
 .main-project {
     color: white;
@@ -150,6 +154,8 @@ p {
     color:floralwhite;
 }
 
+/* skill section */
+
 .skill-section {
     font-size: 35px;
     color: white;
@@ -162,6 +168,8 @@ p {
 .skill-section ul {
     list-style-type: none;
 }
+
+/* contact me section */
 
 .contact-section {
     display: flex;
