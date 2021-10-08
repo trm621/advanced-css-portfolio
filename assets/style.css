@@ -124,7 +124,7 @@ p {
     margin-top: 0px;
 }
 
-.project-info {
+.project-info-1 {
     color: white;
     font-size: 20px;
     font-weight: bolder;
@@ -133,23 +133,68 @@ p {
     border: 2px floralwhite solid;
     border-width: 7px;
     text-decoration: none;
+    background-image: url('./images/project-image-1.jpg');
 }
 
-.project-info:hover {
-    color:rgb(255, 255, 255, 0.5);
-    background-color:slategrey;
+.project-info-2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 50px auto;
+    padding: 100px 200px;
+    border: 2px floralwhite solid;
+    border-width: 7px;
+    text-decoration: none;
+    background-image: url('./images/project-image-2.jpg');
+}
+
+.project-info-3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 50px auto;
+    padding: 100px 200px;
+    border: 2px floralwhite solid;
+    border-width: 7px;
+    text-decoration: none;
+    background-image: url('./images/project-image-3.jpg');
+}
+
+.project-info-4 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 50px auto;
+    padding: 100px 200px;
+    border: 2px floralwhite solid;
+    border-width: 7px;
+    text-decoration: none;
+    background-image: url('./images/project-image-4.jpg');
+}
+
+.project-info-1:hover,
+.project-info-2:hover,
+.project-info-3:hover,
+.project-info-4:hover {
+    opacity: 0.8;
 }
 
 .main-project:hover {
     opacity: 0.8;
 }
 
-.project-info, a:link {
+.project-info-1, a:link,
+.project-info-2, a:link,
+.project-info-3, a:link,
+.project-info-4, a:link {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.project-info, a:visited {
+.project-info-1, a:visited,
+.project-info-2, a:visited,
+.project-info-3, a:visited,
+.project-info-4, a:visited {
     text-decoration: none;
     color:floralwhite;
 }
