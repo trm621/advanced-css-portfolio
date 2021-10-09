@@ -97,9 +97,10 @@ h2 {
 }
 
 p {
-    display: block;
+    display: flex;
     margin: 50px;
     text-align: left;
+    position: relative;
 }
 
 /* project section */
@@ -138,6 +139,7 @@ p {
     padding: 100px 200px;
     border: 2px floralwhite solid;
     border-width: 7px;
+    text-decoration: none;
     background-image: url('./images/project-image-1.jpg');
     background-size: 100%;
 }
@@ -150,6 +152,7 @@ p {
     padding: 100px 200px;
     border: 2px floralwhite solid;
     border-width: 7px;
+    text-decoration: none;
     background-image: url('./images/project-image-2.jpg');
     background-size: 100%;
     background-position:right;
@@ -163,6 +166,7 @@ p {
     padding: 100px 200px;
     border: 2px floralwhite solid;
     border-width: 7px;
+    text-decoration: none;
     background-image: url('./images/project-image-3.jpg');
     background-size: 100%;
     background-position: left;
@@ -176,6 +180,7 @@ p {
     padding: 100px 200px;
     border: 2px floralwhite solid;
     border-width: 7px;
+    text-decoration: none;
     background-image: url('./images/project-image-4.jpg');
 }
 
@@ -206,7 +211,7 @@ p {
     color:floralwhite;
 }
 
-/* skill section */
+/* my skills section */
 
 .skill-section {
     font-size: 35px;
@@ -252,6 +257,8 @@ p {
     color: red;
     text-decoration: none;
 }
+
+/*media queries*/
 
 @media screen and (max-width: 1024px) {
     
