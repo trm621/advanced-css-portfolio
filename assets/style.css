@@ -76,7 +76,7 @@ h2 {
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:whitesmoke;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 /* about me section */
@@ -230,7 +230,7 @@ p {
 
 .contact-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 135px;
     margin-bottom: 0;
 }
@@ -245,7 +245,6 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
     padding: 20px;
-    justify-content: space-evenly;
 }
 
 .contact-section a {
@@ -285,12 +284,6 @@ p {
     }
 }
 
-@media screen and (max-width: 980px) {
-
-    header nav ul li {
-        position: relative;
-    }
-}
 
 @media screen and (max-width: 1024px) {
     
