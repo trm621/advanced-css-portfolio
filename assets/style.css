@@ -90,6 +90,12 @@ h2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.about-me-section, img {
+    height: 400px;
+    max-width: auto;
+    position: relative;
+}
+
 p {
     display: block;
     margin: 50px;
@@ -132,8 +138,8 @@ p {
     padding: 100px 200px;
     border: 2px floralwhite solid;
     border-width: 7px;
-    text-decoration: none;
     background-image: url('./images/project-image-1.jpg');
+    background-size: 100%;
 }
 
 .project-info-2 {
@@ -144,8 +150,9 @@ p {
     padding: 100px 200px;
     border: 2px floralwhite solid;
     border-width: 7px;
-    text-decoration: none;
     background-image: url('./images/project-image-2.jpg');
+    background-size: 100%;
+    background-position:right;
 }
 
 .project-info-3 {
@@ -156,8 +163,9 @@ p {
     padding: 100px 200px;
     border: 2px floralwhite solid;
     border-width: 7px;
-    text-decoration: none;
     background-image: url('./images/project-image-3.jpg');
+    background-size: 100%;
+    background-position: left;
 }
 
 .project-info-4 {
@@ -168,7 +176,6 @@ p {
     padding: 100px 200px;
     border: 2px floralwhite solid;
     border-width: 7px;
-    text-decoration: none;
     background-image: url('./images/project-image-4.jpg');
 }
 
