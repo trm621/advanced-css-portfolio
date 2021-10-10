@@ -14,7 +14,7 @@ header {
 
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     color: floralwhite;
     margin: 15px;
     padding: 20px;
@@ -245,19 +245,6 @@ p {
 
 /*media queries*/
 
-@media screen and (max-width: 697px) {
-
-    header {
-        text-align: center;
-        }
-    header nav ul li a {
-        font-size: 30px;
-    }
-
-    body {
-        width: fit-content;
-    }
-}
 
 @media screen and (max-width: 749px) {
 
@@ -265,7 +252,7 @@ p {
         width: fit-content;
     }
     header nav ul li a {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
