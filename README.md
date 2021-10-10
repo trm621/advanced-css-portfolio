@@ -11,7 +11,7 @@ HTML
 CSS
 
 ## Screenshot
-![Imgur](https://imgur.com/Z8fn4ss.png)
+![Imgur](https://imgur.com/JhtZejw.png)
 
 ## Made By
 Thomas Maher
