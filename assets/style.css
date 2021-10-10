@@ -211,21 +211,6 @@ p {
     color:floralwhite;
 }
 
-/* my skills section */
-
-.skill-section {
-    font-size: 35px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    padding: 20px;
-    justify-content: space-evenly;
-}
-
-.skill-section ul {
-    list-style-type: none;
-}
-
 /* contact me section */
 
 .contact-section {
@@ -265,6 +250,9 @@ p {
     header {
         text-align: center;
         }
+    header nav ul li a {
+        font-size: 30px;
+    }
 
     body {
         width: fit-content;
@@ -276,15 +264,10 @@ p {
     body {
         width: fit-content;
     }
-}
-
-@media screen and (max-width: 825px) {
-    header nav ul li {
-        font-size: 21px;
-        text-align: center;
+    header nav ul li a {
+        font-size: 30px;
     }
 }
-
 
 @media screen and (max-width: 1024px) {
     
