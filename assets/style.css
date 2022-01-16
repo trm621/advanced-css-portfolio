@@ -103,6 +103,13 @@ p {
     position: relative;
 }
 
+.languages {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: system-ui;
+}
+
 /* project section */
 
 .main-project {
